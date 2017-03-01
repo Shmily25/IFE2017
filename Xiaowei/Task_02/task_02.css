@@ -1,0 +1,17 @@
+body{ font-family:'Microsoft YaHei';background:#dedede;}
+/*头部*/
+header{position: relative; height:60px;background:#333; }
+#logo{position:absolute;top:10px;left:30px;}
+nav ul{margin:0; padding:0;position:absolute;top:20px;right:10px;}
+nav ul li{display:inline; margin:0 5px;text-align: center;float: right;}
+nav ul li a{color:white;}
+/*主体*/
+article{border:1px solid grey; margin:5px; padding:8px;background:white;margin:20px;}
+article h2{padding:5px 0;}
+article h3{color:darkgray;padding:5px 0;font-size: 16px;}
+.auther{color:darkgray;padding:5px 0;}
+article p a{color:blue;}
+article ul li{list-style-type:none;}
+/*底部*/
+footer{background:black;height:60px;}
+footer p{color:white;text-align:center;padding:20px;}
