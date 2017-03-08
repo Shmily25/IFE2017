@@ -2,53 +2,35 @@
     margin:0;padding:0;
 }
 
-div{
-    border:1px solid #999;
-    padding:20px;
-
-}
-#page{
-
-    background:#eee;
-    margin:20px;
-    height:430px;
-}
-#left{
+.left{
+    width:50px;
+    height:50px;
+    border-radius:0 0 100% 0;
+    background: #fc0;
     position:absolute;
-    width:160px;
-
+    top:50%;
+    left:50%;
+    margin-left:-200px;
+    margin-top:-100px;
 }
-#left h4{
-    float:right;
-
+.main{
+    width:400px;
+    height:200px;
+    background:#ccc;
+   position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-200px;
+    margin-top:-100px;
 }
-#left img{
-    border:1px solid #999;
-
-}
-#middle{
-    margin:0 140px 0 220px;
-
-}
-#middle h2{
-    margin-bottom:20px;
-}
-#middle p{
-    margin:20px 0;
-    text-indent: 2em;
-}
-#right{
+.right{
+    width:50px;
+    height:50px;
+    border-radius:100% 0 0 0;
+    background: #fc0;
     position:absolute;
-    right:40px;
-    top:40px;
-    width:80px;
-    padding-bottom:0;
-    padding-top:0;
-
+    top:50%;
+    left:50%;
+    margin-left:150px;
+    margin-top:50px;
 }
-#right .logo{
-    display:block;
-    margin:20px 0;
-    border:1px solid #999;
-}
-
