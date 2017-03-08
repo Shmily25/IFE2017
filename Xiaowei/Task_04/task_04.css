@@ -2,6 +2,7 @@
     margin:0;padding:0;
 }
 
+<<<<<<< HEAD
 .left{
     width:50px;
     height:50px;
@@ -34,3 +35,55 @@
     margin-left:150px;
     margin-top:50px;
 }
+=======
+div{
+    border:1px solid #999;
+    padding:20px;
+
+}
+#page{
+
+    background:#eee;
+    margin:20px;
+    height:430px;
+}
+#left{
+    position:absolute;
+    width:160px;
+
+}
+#left h4{
+    float:right;
+
+}
+#left img{
+    border:1px solid #999;
+
+}
+#middle{
+    margin:0 140px 0 220px;
+
+}
+#middle h2{
+    margin-bottom:20px;
+}
+#middle p{
+    margin:20px 0;
+    text-indent: 2em;
+}
+#right{
+    position:absolute;
+    right:40px;
+    top:40px;
+    width:80px;
+    padding-bottom:0;
+    padding-top:0;
+
+}
+#right .logo{
+    display:block;
+    margin:20px 0;
+    border:1px solid #999;
+}
+
+>>>>>>> origin/gh-pages
